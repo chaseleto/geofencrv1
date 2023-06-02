@@ -13,7 +13,6 @@ import yaml
 with open ("C:/Users/Ugly/OneDrive/Desktop/CS/Programming/Projects 2/GeoFencer/config.yml", 'r') as ymlfile:
     cfg = yaml.safe_load(ymlfile)
 os.environ["TZ"] = "America/New_York"
-#new line
 account_sid = cfg['account_sid']
 auth_token = cfg['auth_token']
 client = Client(account_sid, auth_token)
