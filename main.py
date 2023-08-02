@@ -9,7 +9,7 @@ from geographiclib.constants import Constants
 from twilio.rest import Client
 from geopy.geocoders import Nominatim
 import yaml
-
+#test
 with open ("C:/Users/Ugly/OneDrive/Desktop/CS/Programming/Projects 2/GeoFencer/config.yml", 'r') as ymlfile:
     cfg = yaml.safe_load(ymlfile)
 os.environ["TZ"] = "America/New_York"
